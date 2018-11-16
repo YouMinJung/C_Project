@@ -56,6 +56,10 @@
 
 - queue는 단순 일차원 배열을 사용하였으며 생성된 process가 not running state로 (suspend state) 전환될 시 전환 순서대로 배열의 index=1부터 enqueue된다. (queue_size 값을 index값으로 사용하였기 때문에, 0은 비어있는 상태로 정의하였다.) 이때 process_queue에는 process_list의 index 값이 저장된다. CPU가 idle이 되면 suspend되었던 process중 하나(R 값이 큰 process)가 dequeue된다.
 
+##### Execute Result
+<img width="414" alt="fcfs" src="https://user-images.githubusercontent.com/21214309/48598515-93e68080-e9a6-11e8-8958-b97c2e7891d1.PNG">
+
+<br><br>
 
 # Linux Shell - 2017.12
 <p> 리눅스의 Shell을 모방하여 Myshell이라는 나만의 Shell을 구현 </p>
