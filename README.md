@@ -1,6 +1,6 @@
 # < C project > Make some program using C
 
-#### Environment : Visual Studio 2010 in Windows
+#### Environment : Visual Studio 2010 in Windows, Vi Editor in Ubuntu
 #### Language : C
 
 <br><br>
