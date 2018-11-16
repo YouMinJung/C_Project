@@ -39,7 +39,9 @@
 
 - HRRN은 Highest Response Ratio Next로 프로세스 처리의 우선순위를 CPU 처리 기간과 해당 프로세스의 대기 시간을 동시에 고려해 선정하는 스케줄링 알고리즘이다. 즉, R = waiting time + service time / service time을 이용해 R값이 큰 process부터 수행한다. (수행되던 process가 exit하게 되면 suspend/block되었던 process들 중에서 R값이 가장 큰 process가 선택되어 running state로 된다.) 
   따라서 이 프로그램은 FCFS의 방식을 그대로 따라가되, dequeue할 때 R값의 크기를 측정하여 가장 큰 process를 꺼낸다. 이런 방식으로 running state process를 선정하며 선정된 process는 t값의 증가량과 자신이 가진 service time이 같아지게 되면 exit한다. 위의 그림과 같은 구조대로 process state가 변하며, HRRN.c는 new와 suspend/block state를 모두 Not Running state로 간주한다. <br> 
-  
+
+![noname03](https://user-images.githubusercontent.com/21214309/48598353-c93e9e80-e9a5-11e8-866f-202f173b7d0b.png)
+
 - processes가 모두 exit state가 되면 program의 큰 틀은 끝난 것이며 마지막으로 process log informations(waiting time, turnaround time, entry time, response time 등)와 이들의 통계 정보를 출력한다. 
 
 
