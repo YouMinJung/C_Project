@@ -65,9 +65,10 @@
 <p> 리눅스의 Shell을 모방하여 Myshell이라는 나만의 Shell을 구현 </p>
 ![default](https://user-images.githubusercontent.com/21214309/48598584-e162ed80-e9a6-11e8-8e44-da2e82f0dc4c.JPG)
 
-- Main Command는 Parent가 진행하고 각각의 명령어는 Child가 진행한다.
-- 기존의 Shell에는 존재하지 않는, Client1과 client2가 server의 중재 하에 토론을 진행하는 프로그램 pchatt을 추가
+- Main Command는 Parent가 진행하고 각각의 명령어는 Child가 진행한다. <br>
 
+- 기존의 Shell에는 존재하지 않는, Client1과 client2가 server의 중재 하에 토론을 진행하는 프로그램 pchatt을 추가
+![default](https://user-images.githubusercontent.com/21214309/48598693-77971380-e9a7-11e8-8269-b314780902b9.JPG)
 
 - Fork() 및 Pipe의 개념을 이용하여 
 1) Server가 누가 먼저 발언할 것인지 묻는다.
