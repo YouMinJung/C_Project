@@ -9,7 +9,9 @@
 <p> Array를 정적할당, 동적 할당 등을 이용하여 간단한 시스템 제작 <p> 
 
 ###### Program Structure
+![default](https://user-images.githubusercontent.com/21214309/48597802-05243480-e9a3-11e8-8c3e-fd9b433161d3.JPG)
 
+- 관리자와 회원의 역할로 구분되며, 기본적 도서관 시스템을 
 
 
 
