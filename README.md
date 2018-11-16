@@ -63,8 +63,7 @@
 
 # Linux Shell - 2017.12
 <p> 리눅스의 Shell을 모방하여 Myshell이라는 나만의 Shell을 구현 </p>
-![default](https://user-images.githubusercontent.com/21214309/48598742-b88f2800-e9a7-11e8-9edf-9f391f72a845.JPG)
-
+![default](https://user-images.githubusercontent.com/21214309/48598774-e4121280-e9a7-11e8-9c59-152799c3c28e.JPG)
 - Main Command는 Parent가 진행하고 각각의 명령어는 Child가 진행한다. <br>
 
 - 기존의 Shell에는 존재하지 않는, Client1과 client2가 server의 중재 하에 토론을 진행하는 프로그램 pchatt을 추가
