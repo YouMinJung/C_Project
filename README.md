@@ -34,7 +34,7 @@
 
 <br><br>
 
-# Operating System (HRRN) - 2016
+# Operating System (HRRN) - 2017.06
 <p> Operating system Scheduling 기법의 하나인 HRRN 시뮬레이션을 C로 구현 </p><br>
 
 - HRRN은 Highest Response Ratio Next로 프로세스 처리의 우선순위를 CPU 처리 기간과 해당 프로세스의 대기 시간을 동시에 고려해 선정하는 스케줄링 알고리즘이다. 즉, R = waiting time + service time / service time을 이용해 R값이 큰 process부터 수행한다. (수행되던 process가 exit하게 되면 suspend/block되었던 process들 중에서 R값이 가장 큰 process가 선택되어 running state로 된다.) 
@@ -49,5 +49,14 @@
 ![noname01](https://user-images.githubusercontent.com/21214309/48598208-14a47d00-e9a5-11e8-8622-ca0dc6a7bb8c.png)
 
 ##### 자료구조
--
+![noname05](https://user-images.githubusercontent.com/21214309/48598371-dfe4f580-e9a5-11e8-80f1-8df12b210c66.png)
+![noname06](https://user-images.githubusercontent.com/21214309/48598372-e07d8c00-e9a5-11e8-9bcb-cbb81ce8fef0.png)
+
+- 이 프로그램에서 사용하는 자료는 process 정보와 이들의 상태를 저장하기 위한 queue이다. 먼저 process는 Process라는 구조체 구조를 가진 process_list가 위와 같이 존재하며 이는 각각의 process들의 정보를 담고 있다. (배열과 같은 방식으로 사용가능)
+
+- queue는 단순 일차원 배열을 사용하였으며 생성된 process가 not running state로 (suspend state) 전환될 시 전환 순서대로 배열의 index=1부터 enqueue된다. (queue_size 값을 index값으로 사용하였기 때문에, 0은 비어있는 상태로 정의하였다.) 이때 process_queue에는 process_list의 index 값이 저장된다. CPU가 idle이 되면 suspend되었던 process중 하나(R 값이 큰 process)가 dequeue된다.
+
+
+# Linux Shell - 2017.12
+<p> 리눅스의 Shell을 모방하여 Myshell이라는 나만의 Shell을 구현 </p>
 
