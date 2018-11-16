@@ -78,3 +78,4 @@
 6) 위 과정과 같이 토론을 계속 진행한다.
 7) 토론 중 참여자가 bye를 외치며 토론을 빠져나가면 토론을 중단한다. 
 
+##### PDF File : [Linux_Project.pdf](https://github.com/YouMinJung/C_Project/files/2588020/Linux_Project.pdf)
