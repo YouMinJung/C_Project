@@ -81,3 +81,9 @@
 7) 토론 중 참여자가 bye를 외치며 토론을 빠져나가면 토론을 중단한다. 
 
 ##### PDF File : [Linux_Project.pdf](https://github.com/YouMinJung/C_Project/files/2588020/Linux_Project.pdf)
+
+# Data Structure
+#### List : [List.pptx](https://github.com/YouMinJung/C_Project/files/2611927/List.pptx)
+#### Queue : [Queue.pptx](https://github.com/YouMinJung/C_Project/files/2611928/Queue.pptx)
+#### Tree : [Tree.pptx](https://github.com/YouMinJung/C_Project/files/2611929/Tree.pptx)
+
