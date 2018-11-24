@@ -86,4 +86,5 @@
 #### List : [List.pptx](https://github.com/YouMinJung/C_Project/files/2611927/List.pptx)
 #### Queue : [Queue.pptx](https://github.com/YouMinJung/C_Project/files/2611928/Queue.pptx)
 #### Tree : [Tree.pptx](https://github.com/YouMinJung/C_Project/files/2611929/Tree.pptx)
+#### Stack : [Stack.pptx](https://github.com/YouMinJung/C_Project/files/2611972/Stack.pptx)
 
